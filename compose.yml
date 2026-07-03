@@ -3,10 +3,11 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "10"
+      VERSION: "https://twds.dl.sourceforge.net/project/blissos-x86/Official/BlissOS14/OpenGApps/Generic/Bliss-v14.10.3-x86_64-OFFICIAL-opengapps-20241012.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "28G"
+      MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
