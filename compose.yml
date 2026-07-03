@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://mirrors.dotsrc.org/osdn/android-x86/71931/android-x86_64-9.0-rc1.iso"
+      VERSION: "https://archive.org/download/Bliss-v15.9-x86_64-OFFICIAL-gapps-20240114/Bliss-v15.9-x86_64-OFFICIAL-gapps-20240114.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "28G"
