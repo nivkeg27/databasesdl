@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://twds.dl.sourceforge.net/project/blissos-x86/Official/BlissOS14/OpenGApps/Generic/Bliss-v14.10.3-x86_64-OFFICIAL-opengapps-20241012.iso"
+      VERSION: "https://mirrors.dotsrc.org/osdn/android-x86/71931/android-x86_64-9.0-rc1.iso"
       RAM_SIZE: "8G"
       CPU_CORES: "4"
       DISK_SIZE: "28G"
