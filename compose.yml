@@ -3,9 +3,9 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/android_x86_64-a12.1_r1-03.16.22-01-mesa22-ksu-gapps-libndk-sd/android_x86_64-a12.1_r1-03.16.22-01-mesa22-ksu-gapps-libndk-sd.iso"
+      VERSION: "https://archive.org/download/windows-10-1507-home-and-pro/Win10_EnglishUS_x64.iso"
       RAM_SIZE: "8G"
-      CPU_CORES: "4"
+      CPU_CORES: "8"
       DISK_SIZE: "28G"
       MANUAL: "Y"
     devices:
