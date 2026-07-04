@@ -3,9 +3,9 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://archive.org/download/windows-10-1507-home-and-pro/Win10_EnglishUS_x64.iso"
-      RAM_SIZE: "16G"
-      CPU_CORES: "8"
+      VERSION: "https://archive.org/download/win-8.1-english-x-64_20211019/Win8.1_English_x64.iso"
+      RAM_SIZE: "12G"
+      CPU_CORES: "6"
       DISK_SIZE: "28G"
       MANUAL: "Y"
     devices:
