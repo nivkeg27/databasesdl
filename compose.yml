@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "https://download.nus.edu.sg/mirror/archlinux/iso/2026.07.01/archlinux-2026.07.01-x86_64.iso"
+      VERSION: "https://archive.org/download/mini8.1/Mini8.1%20x64%20RTM.iso"
       RAM_SIZE: "12G"
       CPU_CORES: "4"
       DISK_SIZE: "28G"
