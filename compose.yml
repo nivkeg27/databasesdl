@@ -5,7 +5,7 @@ services:
     environment:
       VERSION: "https://download.nus.edu.sg/mirror/archlinux/iso/2026.07.01/archlinux-2026.07.01-x86_64.iso"
       RAM_SIZE: "12G"
-      CPU_CORES: "6"
+      CPU_CORES: "4"
       DISK_SIZE: "28G"
       MANUAL: "Y"
     devices:
